@@ -16,15 +16,13 @@ $('#input_csv_form').on('submit', function(event) {
 			);
 		},
 		success: function (data) {
-			validationInput(data.input_csv, "input_csv");
+			// validationInput(data.input_csv, "input_csv");
 
-			if (data.type) {
-				Swal.fire({
-					icon: data.type,
-					title: data.title,
-					text: data.text,
-				});
-			}
+			Swal.fire({
+				icon: data.type,
+				title: data.title,
+				text: data.text,
+			});
 
 			$("#btnSubmit").html("Submit");
 		},

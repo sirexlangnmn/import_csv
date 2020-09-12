@@ -58,6 +58,6 @@
     <script type="text/javascript">
         var base_url = "<?= base_url(); ?>";
     </script>
-    <script type="text/javascript" src="<?= base_url('assets/javascript/global.js') ?>"></script>
+
     <!-- GLOBAL BASE URL JS [END] -->
 </head>
